@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ryis.Studio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><img src="https://lh3.googleusercontent.com/-JWugH8rHjU7ZWJxoEe869eo-BUhZSwKBsT7FTftPqDaUUhhpS-6VIyaN4Te07v19DfX5QDvtMWzK3B1kWFrwpT4yoPAT8Fqy5Z7ZsKGHOABxOpciL8eZvjY5Dyl5ty2z38iwh_OMw=w2400" height="50"></a>
+  <a href="brandkit.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+  <a href="https://instagram.com/drkeefy" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-instagram"></i></a>
+  <a href="https://twitter.com/drkeefy" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-twitter"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button"><u>ELloyd sent you a friend request</u></a>
+      <a href="#" class="w3-bar-item w3-button">Bigg C posted on your wall!</a>
+      <a href="#" class="w3-bar-item w3-button">drkeefy liked your post!</a>
+    </div>
+  </div>
+
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+  <a href="https://instagram.com/drkeefy" class="w3-bar-item w3-button w3-padding-large">Instagram</a>
+  <a href="https://twitter.com/drkeefy" class="w3-bar-item w3-button w3-padding-large">Twitter</a>
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Julian</h4>
+         <p class="w3-center"><img src="https://lh3.googleusercontent.com/pw/AJFCJaWN9dDWnyAqyU_SG_yBzL1npSH7EedGZAwLS3JcC8s8B6CC-_stj-s8HhMgiURxgJLN-gZhI7Es8Gfjep6mN8E7t2LNHKNhq8Au1SQ80ZnApqIYjK0=w2400" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i>Accountant Major</p>
+         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Texas, US</p>
+         <p><i class="fa fa-envelope fa-fw w3-margin-right w3-text-theme"></i> fakeemail@disroot.org</p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <p>- <u>Coach Forest's Personal Finance Group!</u>
+                <br>
+                -  <u>Ryis Supporters</u>
+                <br>
+                - <u>Game Developers</u>
+                <br>
+                - <u>Cool Kids</u>
+            </p>
+          </div>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p>October Ninth - PGWECN BIRTHDAY
+            <br>
+            October Sixth - FOUNDER BIRTHDAY
+            <br>
+            April 15th - Ryis Birthday!
+            </p>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+      <!-- Interests --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Interests</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Ryis Squad</span>
+            <span class="w3-tag w3-small w3-theme-d4">PGWECN</span>
+            <span class="w3-tag w3-small w3-theme-d3">drkeefy</span>
+            <span class="w3-tag w3-small w3-theme-d2">Games</span>
+            <span class="w3-tag w3-small w3-theme-d1">Friends</span>
+            <span class="w3-tag w3-small w3-theme">Games</span>
+            <span class="w3-tag w3-small w3-theme-l1">Giveaways</span>
+            <span class="w3-tag w3-small w3-theme-l2">Development</span>
+            <span class="w3-tag w3-small w3-theme-l3">Design</span>
+            <span class="w3-tag w3-small w3-theme-l4">Art</span>
+            <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+          </p>
+        </div>
+      </div>
+      <br>
+      
+      <!-- Alert Box -->
+      <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+          <i class="fa fa-remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>People are looking at your profile. Find out who.</p>
+      </div>
+    
+    <!-- End Left Column -->
+    </div>
+    
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h6 class="w3-opacity">Social Media template by <a href="https://drkeefy.github.io/portfolio.html">drkeefy</a></h6>
+              <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
+              <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="assets\Spencer.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" height="50" width="50">
+        <span class="w3-right w3-opacity">1 min</span>
+        <h4>Young Spencer 🧊</h4><br>
+        <hr class="w3-clear">
+        <p>Dropped a hella fireeeeeeeee song on SoundCloud. Feel free to follow and drop a like, ongg!
+            <br>
+            <a href="https://soundcloud.com/youngspencer">Click Here!</a>
+        </p>
+          
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="assets\biggc.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">16 min</span>
+        <h4>Bigg C🔥<button>OG</button></h4><br>
+        <hr class="w3-clear">
+        <p>Ayoo, wsgg gang. Dropped a bag on some new Nikes, dunking on everyone, ongg fsfs!</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div>  
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="assets\Ryis.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">32 min</span>
+        <h4>Ryis Squad <button>Official</button></h4><br>
+        <hr class="w3-clear">
+        <p>Have you seen this?</p>
+       
+        <p>Twitter is owned by Elon Musk, explains why people on Twitter smell so bad 😂😂
+        <br>
+        <br>
+        <u>Rys 0.01 Update: Added Adverts</u>
+        </p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+
+
+      </div> 
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="assets\Be You.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">32 min</span>
+        <h4>Be yoU blog <button >Ad</button></h4><br>
+        <p>Transgender lives do matter!
+        <br>
+        <br>
+        Support them <u>here</u>. All the love matters!
+        </p>
+      </div> 
+
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="assets\keefy aaa.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <span class="w3-right w3-opacity">16 min</span>
+        <h4>drkeefy</h4><br>
+        <hr class="w3-clear">
+        <p>I'm big chilling, gonna be in the stuu working on some FIREEEE Beats, y'all mf'ers should follow me on the gram! DM me for collabs!</p>
+        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button> 
+        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> 
+      </div>  
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Friend Request</p>
+          <img src="assets\elloyd.png" alt="Avatar" style="width:50%"><br>
+          <span>ELloyd</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+        <p><img src="assets\adforhealkth.png" height="200px"></p>
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+        <p><i class="fa fa-bug w3-xxlarge"></i></p>
+      </div>
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>"L Twitter, W Ryis"</h5>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Powered with 💔 by <a href="https://drkeefy.github.io/portfolio.html">drkeefy!</a></p>
+</footer>
+ 
+<script>
+    // Accordion
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+      } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+      }
+    }
+    
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+    
+
+</body>
+</html> 
